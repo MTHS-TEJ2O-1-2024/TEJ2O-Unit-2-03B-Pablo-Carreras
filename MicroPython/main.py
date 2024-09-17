@@ -1,7 +1,7 @@
 """
 Created by: Pablo
 Created on: Sep 2024
-This module is a Micro:bit MicroPython program
+This module is a Micro:bit MicroPython program show are and perimeter formulas
 """
 
 from microbit import *
