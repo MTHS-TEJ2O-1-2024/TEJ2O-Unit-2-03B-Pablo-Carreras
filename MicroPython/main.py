@@ -1,10 +1,25 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
+Created by: Pablo
+Created on: Sep 2024
 This module is a Micro:bit MicroPython program
 """
 
 from microbit import *
+from time import sleep
 
 
-display.scroll("Hello, World!")
+display.clear()
+sleep(1)
+
+
+""" perimeter """
+display.scroll("5 * 2 + 3 * 2 =" +str(5 * 2 + 3 * 2))
+sleep(0.5)
+display.clear()
+
+
+
+"""area"""
+display.scroll("5 * 3 =" +str(5 * 3))
+sleep(0.5)
+display.clear()
